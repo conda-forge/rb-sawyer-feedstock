@@ -1,5 +1,5 @@
 {% set name = "sawyer" %}
-{% set version = "0.8.2" %}
+{% set version = "0.9.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 9f0d3988956cb22667f393a764f17b3b3649eb187b5e25f34005ea3b34642d7b
+  sha256: 4af4ee3a9cf464980401a10a6740c2592f48cf1c532ae2b2ba5c820dd4088914
 
 build:
   noarch: generic
